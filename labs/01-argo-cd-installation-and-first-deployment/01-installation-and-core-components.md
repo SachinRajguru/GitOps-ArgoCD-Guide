@@ -1070,4 +1070,4 @@ In this section we:
 
 ## End of Section 1
 
-**Next Section:** *Accessing the Argo CD UI, Authentication, First Login, Deploying the Guestbook Application, and Understanding Argo CD Applications in Detail.*
+**Next Section:** Accessing the Argo CD UI, Authentication, First Login, Deploying the Guestbook Application, and Understanding Argo CD Applications in Detail.

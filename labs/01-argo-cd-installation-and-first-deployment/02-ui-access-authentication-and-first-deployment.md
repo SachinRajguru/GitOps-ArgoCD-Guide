@@ -982,4 +982,4 @@ kubectl -n argocd get secret argocd-initial-admin-secret \
 
 ## End of Section 2
 
-**Next Section:** *Understanding Continuous Reconciliation, Drift Detection, Sync Status, Application Health, Git Changes, Automatic Deployments, and Why Argo CD Is Not Opinionated (Plain YAML vs Helm vs Kustomize).*
+**Next Section:** Understanding Continuous Reconciliation, Drift Detection, Sync Status, Application Health, Git Changes, Automatic Deployments, and Why Argo CD Is Not Opinionated (Plain YAML vs Helm vs Kustomize).

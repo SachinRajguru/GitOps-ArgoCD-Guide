@@ -1005,4 +1005,4 @@ The CLI is preferred for:
 
 ## End of Section 4
 
-**Next Section:** *Advanced Argo CD Configuration — Auto Sync, Self-Heal, Pruning, Ignore Differences, Application Projects, Multi-Cluster Management, and Enterprise GitOps Best Practices.*
+**Next Section:** Advanced Argo CD Configuration — Auto Sync, Self-Heal, Pruning, Ignore Differences, Application Projects, Multi-Cluster Management, and Enterprise GitOps Best Practices.

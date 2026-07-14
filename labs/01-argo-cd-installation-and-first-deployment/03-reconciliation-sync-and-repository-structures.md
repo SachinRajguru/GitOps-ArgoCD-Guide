@@ -1051,4 +1051,4 @@ In this section we:
 
 ## End of Section 3
 
-**Next section:** *Argo CD CLI Deep Dive — Installation, Authentication, Application Creation, Sync Operations, Managing Applications from the Command Line, and UI vs CLI Comparison.*
+**Next section:** Argo CD CLI Deep Dive — Installation, Authentication, Application Creation, Sync Operations, Managing Applications from the Command Line, and UI vs CLI Comparison.
