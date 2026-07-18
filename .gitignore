@@ -1,0 +1,89 @@
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor Files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+*.out
+
+# =========================
+# Kubernetes / Kubectl
+# =========================
+.kube/
+*.kubeconfig
+kubeconfig.yaml
+*.conf
+
+# Temporary kubectl / manifests outputs
+*.tmp
+
+# =========================
+# Terraform / Infra (if added later)
+# =========================
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# =========================
+# AWS CLI / EKS
+# =========================
+.aws/
+aws-creds
+credentials
+
+# =========================
+# Helm (if used later)
+# =========================
+*.tgz
+
+# =========================
+# Node / tooling (safe future-proofing)
+# =========================
+node_modules/
+dist/
+build/
+
+# =========================
+# Secrets / Sensitive files
+# =========================
+*.pem
+*.key
+*.crt
+*.env
+.env.*
+secrets.yaml
+secret.yaml
+
+# =========================
+# Argo CD / GitOps temp files
+# =========================
+argocd-token.txt
+argocd-login.txt
+
+# =========================
+# Backup files
+# =========================
+*.bak
+*.backup
+*~
+
+# =========================
+# Archive files
+# =========================
+*.zip
+*.tar
+*.gz
