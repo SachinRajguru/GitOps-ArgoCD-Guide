@@ -1,39 +1,39 @@
 
-## 📄 `Lab 01: Argo CD Installation and First Deployment`
+## 📄 Argo CD Installation and First Deployment
 
 ## Table of Contents
 
-- [1. What This Lab Is About](#1-what-this-lab-is-about)
-- [2. What We Are Building](#2-what-we-are-building)
-- [3. Lab Architecture](#3-lab-architecture)
-- [4. Important Concepts Before Starting](#4-important-concepts-before-starting)
-  - [GitOps](#gitops)
-  - [Argo CD](#argo-cd)
-  - [Desired State](#desired-state)
-  - [Actual State](#actual-state)
-- [5. Prerequisites](#5-prerequisites)
-  - [System Requirements](#system-requirements)
-- [6. Kubernetes Environment Options](#6-kubernetes-environment-options)
-- [7. Tool Installation](#7-tool-installation)
-  - [7.1 Install kubectl](#71-install-kubectl)
-    - [Windows](#windows)
-    - [Linux](#linux)
-    - [macOS](#macos)
-  - [7.2 Install Minikube](#72-install-minikube)
-  - [7.3 Install Argo CD CLI](#73-install-argo-cd-cli)
-- [8. Start Kubernetes Cluster](#8-start-kubernetes-cluster)
-- [9. Install Argo CD](#9-install-argo-cd)
-  - [Verify Installation](#verify-installation)
-- [10. Access Argo CD Dashboard](#10-access-argo-cd-dashboard)
-- [11. Login Credentials](#11-login-credentials)
-- [12. Deploy First Application](#12-deploy-first-application)
-- [13. Lab Document Sequence](#13-lab-document-sequence)
-  - [01-installation-and-core-components.md](#01-installation-and-core-componentsmd)
-  - [02-ui-access-authentication-and-first-deployment.md](#02-ui-access-authentication-and-first-deploymentmd)
-  - [03-reconciliation-sync-and-repository-structures.md](#03-reconciliation-sync-and-repository-structuresmd)
-  - [04-cli-operations-and-application-management.md](#04-cli-operations-and-application-managementmd)
-- [14. Common Issues](#14-common-issues)
-- [15. What We Will Learn](#15-what-we-will-learn)
+1. [What This Lab Is About](#1-what-this-lab-is-about)
+2. [What We Are Building](#2-what-we-are-building)
+3. [Lab Architecture](#3-lab-architecture)
+4. [Important Concepts Before Starting](#4-important-concepts-before-starting)
+    - [GitOps](#gitops)
+    - [Argo CD](#argo-cd)
+    - [Desired State](#desired-state)
+    - [Actual State](#actual-state)
+5. [Prerequisites](#5-prerequisites)
+    - [System Requirements](#system-requirements)
+6. [Kubernetes Environment Options](#6-kubernetes-environment-options)
+7. [Tool Installation](#7-tool-installation)
+    - [7.1 Install kubectl](#71-install-kubectl)
+      - [Windows](#windows)
+      - [Linux](#linux)
+      - [macOS](#macos)
+    - [7.2 Install Minikube](#72-install-minikube)
+    - [7.3 Install Argo CD CLI](#73-install-argo-cd-cli)
+8. [Start Kubernetes Cluster](#8-start-kubernetes-cluster)
+9. [Install Argo CD](#9-install-argo-cd)
+    - [Verify Installation](#verify-installation)
+10. [Access Argo CD Dashboard](#10-access-argo-cd-dashboard)
+11. [Login Credentials](#11-login-credentials)
+12. [Deploy First Application](#12-deploy-first-application)
+13. [Lab Document Sequence](#13-lab-document-sequence)
+    - [01-installation-and-core-components.md](#01-installation-and-core-componentsmd)
+    - [02-ui-access-authentication-and-first-deployment.md](#02-ui-access-authentication-and-first-deploymentmd)
+    - [03-reconciliation-sync-and-repository-structures.md](#03-reconciliation-sync-and-repository-structuresmd)
+    - [04-cli-operations-and-application-management.md](#04-cli-operations-and-application-managementmd)
+14. [Common Issues](#14-common-issues)
+15. [What We Will Learn](#15-what-we-will-learn)
 - [Final Outcome](#final-outcome)
 
 ## 1. What This Lab Is About
@@ -611,7 +611,7 @@ After completing this lab:
 * ✓ Sync and reconciliation
 * ✓ CLI-based management
 
-## 🏁 Final Outcome
+## Final Outcome
 
 At the end of this lab, we will have:
 
@@ -628,4 +628,4 @@ Kubernetes Cluster
 Application Running
 ```
 
-We have successfully completed our first GitOps deployment using Argo CD.
+We have successfully completed our first GitOps deployment with Argo CD.
